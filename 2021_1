@@ -1,0 +1,171 @@
+\documentclass{article}
+\usepackage{tcolorbox}
+
+\title{\textbf{Mathematices}}
+
+\begin{document}
+\maketitle
+
+
+
+\begin{enumerate}
+    \item Consider a triangle $\Delta$ whose two sides lie on the $x$-axis and the line $x + y + 1 = 0$. If the orthocenter of $\Delta$ is $(1, 1)$, then the equation of the circle passing through the vertices of the triangle $\Delta$ is:  
+\begin{enumerate}[label=\Alph*.] 
+	\item  $x^2 + y^2 - 3x + y = 0$  
+        \item  $x^2 + y^2 + x + 3y = 0$  
+        \item  $x^2 + y^2 + 2y - 1 = 0$  
+        \item  $x^2 + y^2 + x + y = 0$
+    \end{enumerate}
+
+    \item The area of the region $\{(x, y): 0 \leq x \leq 9, 0 \leq y \leq 1, x \geq 3y, x + y \geq 2\}$ is:  
+ \begin{enumerate}[label=\Alph*.] 
+	 \item  $\frac{11}{32}$  
+        \item  $\frac{35}{96}$  
+        \item  $\frac{37}{96}$  
+        \item  $\frac{13}{32}$
+    \end{enumerate}
+
+    \item Consider three sets $E_1 = \{1, 2, 3\}$, $F_1 = \{1, 3, 4\}$, and $G_1 = \{2, 3, 4, 5\}$. Two elements are chosen at random, without replacement, from the set $E_1$, and let $S_1$ denote the set of these chosen elements. Let $E_2 = E_1 - S_1$ and $F_2 = F_1 \cup S_1$. Now two elements are chosen at random, without replacement, from the set $F_2$ and let $S_2$ denote the set of these chosen elements. Let $G_2 = G_1 \cup S_2$. Finally, two elements are chosen at random, without replacement, from the set $G_2$ and let $S_3$ denote the set of these chosen elements. Let $E_3 = E_2 \cup S_3$. Given that $E_1 = E_3$, let $p$ be the conditional probability of the event $S_1 = \{1, 2\}$. Then the value of $p$ is:  
+\begin{enumerate}[label=\Alph*.]
+	\item  $\frac{1}{5}$  
+        \item  $\frac{3}{5}$  
+        \item  $\frac{1}{2}$  
+        \item  $\frac{2}{5}$
+    \end{enumerate}
+
+    \item Let $\theta_1, \theta_2, \dots, \theta_{10}$ be positive valued angles (in radians) such that $\theta_1 + \theta_2 + \dots + \theta_{10} = 2\pi$. Define the complex numbers $z_1 = e^{i\theta_1}$, $z_k = z_{k-1} e^{i\theta_k}$ for $k = 2, 3, \dots, 10$, where $i = \sqrt{-1}$. Consider the following statements:  
+    
+        \item $P$: $|z_2 - z_1| + |z_3 - z_2| + \dots + |z_{10} - z_9| + |z_1 - z_{10}| \leq 2\pi$  
+        \item $Q$: $|z_2^2 - z_1^2| + |z_3^2 - z_2^2| + \dots + |z_{10}^2 - z_9^2| + |z_1^2 - z_{10}^2| \leq 4\pi$  
+
+    Then,  
+    \begin{enumerate}[label=\Alph*.]
+        \item  $P$ is TRUE and $Q$ is FALSE  
+        \item  $Q$ is TRUE and $P$ is FALSE  
+        \item  both $P$ and $Q$ are TRUE  
+        \item  both $P$ and $Q$ are FALSE
+    \end{enumerate}
+
+     Three numbers are chosen at random, one after another with replacement, from the set $S = \{1, 2, 3, \dots, 100\}$. Let $p_1$ be the probability that the maximum of the chosen numbers is at least 81 and $p_2$ be the probability that the minimum of the chosen numbers is at most 40.  
+    \item The value of $\frac{625}{4}p_1$ is:  
+    \underline{\hspace{3cm}}  
+
+    \item The value of $\frac{125}{4}p_2$ is:  
+    \underline{\hspace{3cm}}  
+
+    Let $\alpha$, $\beta$, and $\gamma$ be real numbers such that the system of linear equations  
+    \[
+    x + 2y + 3z = \alpha, \quad 4x + 5y + 6z = \beta, \quad 7x + 8y + 9z = \gamma - 1
+    \]  
+    is consistent. Let $|M|$ represent the determinant of the matrix  
+    \[
+    M = \begin{pmatrix} \alpha & 2 & \gamma \\ \beta & 1 & 0 \\ -1 & 0 & 1 \end{pmatrix}
+    \]  
+
+    Let p be the plane containing all those $(\alpha,\beta,\gamma)$for which the above system of linear 
+equations is consistent, and Let $D$ be the square of the distance of the point $(0, 1, 0)$ from the plane containing all those $(\alpha, \beta, \gamma)$ for which the above system of linear equations is consistent. The value of $D$ is:  
+    \underline{\hspace{3cm}}  
+
+	\item  the value of $|M|$ is:                                \underline{\hspace{3cm}}
+
+	\item the value of d is \underline{\hspace{3cm}}
+     Consider the lines $L_1$ and $L_2$ defined by  
+    \[
+    L_1: x\sqrt{2} + y - 1 = 0, \quad L_2: x\sqrt{2} - y + 1 = 0
+    \]  
+    For a fixed constant $\lambda$, let $C$ be the locus of a point $P$ such that the product of the distance of $P$ from $L_1$ and the distance of $P$ from $L_2$ is $\lambda^2$. The line $y = 2x + 1$ meets $C$ at two points $R$ and $S$, where the distance between $R$ and $S$ is $\sqrt{270}$.  
+    Let the perpendicular bisector of $RS$ meet $C$ at two distinct points $R'$ and $S'$. Let $D$ be the square of the distance between $R'$ and $S'$.  
+    \item The value of $\lambda^2$ is:  
+    \underline{\hspace{3cm}}  
+
+    \item The value of $D$ is:  
+    \underline{\hspace{3cm}}  
+
+    \item For any $3 \times 3$ matrix $M$, let $|M|$ denote the determinant of $M$. Let  
+    \[
+    E = \begin{pmatrix} 1 & 2 & 3 \\ 2 & 3 & 4 \\ 8 & 13 & 18 \end{pmatrix}, \quad P = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 0 & 1 \\ 0 & 1 & 0 \end{pmatrix}, \quad F = \begin{pmatrix} 1 & 3 & 2 \\ 8 & 18 & 13 \\ 2 & 4 & 3 \end{pmatrix}
+    \]  
+    If $Q$ is a nonsingular matrix of order $3 \times 3$, then which of the following statements is (are) TRUE?  
+    \begin{enumerate}[label=Alph*]
+        \item (A) $F = PEP$ and $P^2 = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix}$  
+        \item (B) $|EQ + PFQ^{-1}| = |EQ| + |PFQ^{-1}|$  
+        \item (C) $|(EF)^3| > |EF|^2$  
+        \item (D) Sum of the diagonal entries of $P^{-1}EP +F$ is equal to the sum of diagonal entries of $E + P^{-1}FP$
+    \end{document}
+
+    \item Let $f: \mathbb{R} \to \mathbb{R}$ be defined by  
+    \[
+    f(x) = \frac{x^2 - 3x - 6}{x^2 + 2x + 4}
+    \]  
+    Then which of the following statements is (are) TRUE? 
+    \begin{enumerate}[label=\Alph*]
+        \item (A) $f$ is decreasing in the interval $(-2, -1)$  
+        \item (B) $f$ is increasing in the interval $(1, 2)$  
+        \item (C) $f$ is onto  
+        \item (D) Range of $f$ is $[-\frac{3}{2}, 2]$
+    \end{enumerate}
+
+    \item Let $E$, $F$, and $G$ be three events having probabilities  
+    \[
+    P(E) = \frac{1}{8}, \quad P(F) = \frac{1}{6}, \quad P(G) = \frac{1}{4}, \quad P(E \cap F \cap G) = \frac{1}{10}
+    \]  
+    For any event $H$, if $H^c$ denotes its complement, then which of the following statements is (are) TRUE?  
+    \begin{enumerate}[label=\Alph*]
+        \item (A) $P(E \cap F \cap G^c) \leq \frac{1}{40}$  
+        \item (B) $P(E^c \cap F \cap G) \leq \frac{1}{15}$  
+        \item (C) $P(E \cup F \cup G) \leq \frac{13}{24}$  
+        \item (D) $P(E^c \cap F^c \cap G^c) \leq \frac{5}{12}$
+    \end{enumerate}
+
+    \item For any $3 \times 3$ matrix $M$, let $|M|$ denote the determinant of $M$. Let $I$ be the $3 \times 3$ identity matrix. Let $E$ and $F$ be two $3 \times 3$ matrices such that $(I - EF)$ is invertible. If $G = (I - EF)^{-1}$, then which of the following statements is (are) TRUE?  
+    \begin{enumerate}[label=\Alph*]
+        \item (A) $|FE| = |I - FE| \cdot |FGE|$  
+        \item (B) $(I - FE)(I + FGE) = I$  
+        \item (C) $EFG = GEF$  
+        \item (D) $(I - FE)(I - FGE) = I$
+    \end{enumerate}
+
+    \item For any positive integer $n$, let $S_n: (0, \infty) \to \mathbb{R}$ be defined by  
+    \[
+    S_n(x) = \sum_{k=1}^n \cot^{-1}\left(\frac{1 + k(k+1)x^2}{x}\right),
+    \]  
+    where for any $x \in \mathbb{R}$, $\cot^{-1}(x) \in (0, \pi)$ and $\tan^{-1}(x) \in \left(-\frac{\pi}{2}, \frac{\pi}{2}\right)$. Then which of the following statements is (are) TRUE?  
+    \begin{enumerate}[label=\Alph*]
+        \item (A) $S_{10}(x) = \frac{\pi}{2} - \tan^{-1}\left(\frac{1 + 11x^2}{10x}\right)$, for all $x > 0$  
+        \item (B) $\lim_{n \to \infty} \cot(S_n(x)) = x$, for all $x > 0$  
+        \item (C) The equation $S_3(x) = \frac{\pi}{4}$ has a root in $(0, \infty)$  
+        \item (D) $\tan(S_n(x)) \leq \frac{1}{2}$, for all $n \geq 1$ and $x > 0$
+    \end{enumerate}
+
+    \item For any complex number $w = c + id$, let $\arg(w) \in (-\pi, \pi]$, where $i = \sqrt{-1}$. Let $\alpha$ and $\beta$ be real numbers such that for all complex numbers $z = x + iy$ satisfying  
+    \[
+    \arg\left(\frac{z + \alpha}{z + \beta}\right) = \frac{\pi}{4},
+    \]  
+    the ordered pair $(x, y)$ lies on the circle  
+    \[
+    x^2 + y^2 + 5x - 3y + 4 = 0.
+    \]  
+    Then which of the following statements is (are) TRUE?  
+    \begin{enumerate}[label=\Alph*]
+        \item (A) $\alpha = -1$  
+        \item (B) $\alpha \beta = 4$  
+        \item (C) $\alpha \beta = -4$  
+        \item (D) $\beta = 4$
+    \end{enumerate}
+
+    \item for $X \in \mathbb{R}$,the number of real roots of the equation $3x^2 4\mydet{X^2 -1}+x-1=0$ is \underline{\hspace{3cm}}.
+
+
+    \item In a triangle $ABC$, let $AB = \sqrt{23}$, $BC = 3$, and $CA = 4$. Then the value of  
+    \[
+    \frac{\cot A + \cot C}{\cot B}
+    \]  
+    is \underline{\hspace{3cm}}.
+
+    \item Let $\vec{u}$, $\vec{v}$, and $\vec{w}$ be vectors in three-dimensional space, where $\vec{u}$ and $\vec{v}$ are unit vectors which are not perpendicular to each other and  
+    \[
+    \vec{u} \cdot \vec{w} = 1, \quad \vec{v} \cdot \vec{w} = 1, \quad \vec{u} \cdot \vec{v} = 4.
+    \]  
+    If the volume of the parallelepiped, whose adjacent sides are represented by the vectors $\vec{u}$, $\vec{v}$, and $\vec{w}$, is $\sqrt{2}$, then the value of $|3\vec{u} + 5\vec{v}|$ is \underline{\hspace{3cm}}.
+\end{enumerate}
+\end{document}
